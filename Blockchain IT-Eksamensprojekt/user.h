@@ -4,11 +4,10 @@
 
 class user {
 private:
-	static int nUsers;
 	const int userID;
 
 
-	user();
+	user(int nUsers);
 	void connectToNode(node n);
 	bool checkData(data d1, data d2);
 };

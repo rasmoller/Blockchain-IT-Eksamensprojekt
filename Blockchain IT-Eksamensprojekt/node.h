@@ -1,7 +1,10 @@
 #pragma once
+#include <vector>
+#include "user.h"
+
 class node {
 private:
-	std::vector<user> userList;
+	std::vector<int> userList;
 
 
 public:

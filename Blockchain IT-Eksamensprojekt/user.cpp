@@ -1,7 +1,5 @@
 #include "user.h"
 
-user::user() : userID(nUsers) {
-	nUsers++;
-
+user::user(int nUsers) : userID(nUsers){
 
 }

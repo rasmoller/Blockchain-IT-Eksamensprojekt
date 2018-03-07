@@ -1,4 +1,3 @@
-
 #include "block.h"
 #include "blockchain.h"
 #include "node.h"
